@@ -127,50 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-#topbar {
-  height: 40px;
-  font-size: 14px;
-  transition: all 0.5s;
-  z-index: 996;
-}
 
-#topbar.topbar-scrolled {
-  top: -40px;
-}
-
-#topbar .contact-info i {
-  font-style: normal;
-  color: #d9ba85;
-}
-
-#topbar .contact-info i span {
-  padding-left: 5px;
-  color: #fff;
-}
-
-#topbar .languages ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #cda45e;
-}
-
-#topbar .languages ul a {
-  color: white;
-}
-
-#topbar .languages ul li + li {
-  padding-left: 10px;
-}
-
-#topbar .languages ul li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  content: "/";
-}
 
 /*--------------------------------------------------------------
 # Header
@@ -182,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
+  top: 0px;
 }
 
 #header.header-scrolled {
@@ -926,8 +883,9 @@ section {
   padding: 8px 12px 10px 12px;
   font-size: 23px;
   font-weight: 500;
+  background: black;
   line-height: 1;
-  color: #001524;
+  color:white;
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
@@ -959,6 +917,7 @@ section {
   display: flex;
   justify-content: space-between;
   position: relative;
+  
 }
 #veg::after,#Nonveg::after{
   content:'';
@@ -968,12 +927,12 @@ section {
   justify-content: center;
 }
 .menu .menu-content::after {
-  content: "       ................................................   "
+  content: ".................................................................."
  "...................................................................."
  "....................................................................";
   position: absolute;
-  left: 12rem;
-  right: 6remrem;
+  left:20px;
+  right: 0px;
   top: -4px;
   z-index: 1;
   color: #bab3a6;
@@ -982,9 +941,9 @@ section {
 
 .menu .menu-content a {
   padding-right: 10px;
-  
+  background-color: white;
   position: relative;
-  z-index: 3;
+  z-index: 6;
   font-weight: 700;
   color: #001524;
   transition: 0.3s;
@@ -995,15 +954,16 @@ section {
 }
 
 .menu .menu-content span {
-  
+  background-color: white;
   position: relative;
-  z-index: 3;
+  z-index: 6;
   padding: 0 10px;
   font-weight: 600;
   color: #001524;
 }
 
 .menu .menu-ingredients {
+  text-align: left;
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
