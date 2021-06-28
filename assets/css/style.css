@@ -923,9 +923,16 @@ section {
   content:'';
 }
 #veg,#Nonveg{
-  display: flex;
-  justify-content: center;
+  display: none;
+  
 }
+@media (min-width: 600px) {
+  #veg,#Nonveg{
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .menu .menu-content::after {
   content: ".................................................................."
  "...................................................................."
