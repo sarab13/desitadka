@@ -1,9 +1,4 @@
-/**
-* Template Name: Restaurantly - v3.2.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -1488,7 +1483,7 @@ section {
 
 .contact .php-email-form .validate {
   display: none;
-  color: red;
+  color: green;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1497,7 +1492,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #18d263;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1700,7 +1695,11 @@ section {
 #footer .footer-top .footer-links ul a:hover {
   color: #001524;
 }
-
+.footer-spacebetween{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   background: #001524;
