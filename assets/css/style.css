@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: 4361ee;
+  background: #be6f20;
   color:#001524;
 }
 
@@ -109,6 +109,18 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   opacity: 1;
 }
+@media only screen and (max-width:540px) and (min-width:115px){
+  .btn-menu{
+    margin-bottom: 10px;
+  }
+  .btn-menu,.btn-book{
+    width:12rem;
+    }
+    .btn-book{
+      margin-right: 12px;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -180,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #001524;
+  background: #be6f20;
   color: #fff;
 }
 
@@ -360,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: yellow;
+  color: #be6f20;
 }
 
 .navbar-mobile .getstarted {
@@ -472,7 +484,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #001524;
+  background: #be6f20;
   
   color: #fff;
 }
@@ -1250,7 +1262,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type="submit"]:hover {
-  background: #001524;
+  background: #be6f20;
 }
 
 /*--------------------------------------------------------------
@@ -1569,7 +1581,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #001524;
+  background: #be6f20;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1598,6 +1610,9 @@ section {
   padding: 0 0 30px 0;
   color: #001524;
   font-size: 14px;
+}
+.footer-links{
+    margin-left:auto;
 }
 
 #footer .footer-top {
@@ -1645,13 +1660,13 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #001524;
+  background: #be6f20;
   color: #fff;
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   color: #001524;
   position: relative;
@@ -1693,7 +1708,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #001524;
+  color: #be6f20;
 }
 .footer-spacebetween{
     display:flex;
@@ -1732,9 +1747,11 @@ section {
   transition: 0.3s;
   border-radius: 50px;
 }
-
+.footer-links{
+    margin-left:auto;
+}
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #001524;
+  background: #be6f20;
 }
 
 #footer .copyright {

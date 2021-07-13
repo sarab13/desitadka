@@ -10,7 +10,7 @@ $email_subject="$name Sent you a Message";
 $email_body="Name: $name\n". 
             "Email: $visitor_email\n". 
             "Message: $message\n";
-$to='info@desitadkaedison.com';
+$to='info@desitadkaedison.com, 7324397297@vtext.com';
 $headers="From: $email_from \r\n";
 $headers="Reply-To: $visitor_email \r \n";
 mail($to,$subject,$email_body,$headers);
@@ -37,7 +37,7 @@ $email_body="Username: $name\n".
             "Time: $time\n".
             "No. of People: $people\n".
             "Message: $message\n";
-$to='info@desitadkaedison.com';
+$to='info@desitadkaedison.com, 7324397297@vtext.com';
 $headers="From: $email_from \r\n";
 $headers="Reply-To: $visitor_email \r \n";
 mail($to,$email_subject,$email_body,$headers);
